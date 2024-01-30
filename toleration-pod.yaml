@@ -1,0 +1,203 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-1
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx-1
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-2
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx-2
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-3
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx-3
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-4
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx-4
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-5
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx-5
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-6
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx-6
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-7
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx-7
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-8
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx-8
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-9
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx-9
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-10
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx-10
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-11
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx-11
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: nginx-12
+  labels:
+    env: test
+spec:
+  containers:
+  - name: nginx-12
+    image: nginx
+    imagePullPolicy: IfNotPresent
+  tolerations:
+  - key: "key1"
+    operator: "Equal"
+    value: "value1"
+    effect: "NoSchedule"
